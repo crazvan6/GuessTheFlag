@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsActivity"
+    android:fillViewport="true"
+    android:background="@drawable/green"
+    android:contentDescription="">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="60dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/flagImg"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/ic_flag_border"
+            android:scaleType="centerCrop"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flagImg"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressDrawable="@drawable/custom_progress_bg"
+            />
+
+        <TextView
+            android:id="@+id/optionOne"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/flagImg"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:background="@drawable/ic_option_button_shape"
+            android:contextClickable="true"
+            android:fontFamily="@font/holtwood_one_sc"
+            android:paddingTop="20dp"
+            android:text="Saint Vincent And Grenadines"
+            android:textAlignment="center"
+            android:textColor="#9F9595"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/optionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/optionOne"
+            android:background="@drawable/ic_option_button_shape"
+            android:checkable="false"
+            android:clickable="true"
+            android:fontFamily="@font/holtwood_one_sc"
+            android:text="Italy"
+            android:textColor="#9F9595"
+            android:textSize="12sp"
+            android:paddingTop="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/optionThree"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/optionTwo"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_option_button_shape"
+            android:checkable="false"
+            android:clickable="true"
+            android:text="Argentina"
+            android:textColor="#9F9595"
+            android:fontFamily="@font/holtwood_one_sc"
+            android:textSize="12sp"
+            android:paddingTop="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/optionFour"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/optionThree"
+            android:background="@drawable/ic_option_button_shape"
+            android:checkable="false"
+            android:clickable="true"
+            android:fontFamily="@font/holtwood_one_sc"
+            android:text="Germany"
+            android:textColor="#9F9595"
+            android:textSize="12sp"
+            android:paddingTop="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/btnSubmit"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/optionFour"
+            android:background="@drawable/ic_submit_button_shape"
+            android:clickable="true"
+            android:paddingTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:text="SUBMIT"
+            android:textAlignment="center"
+            android:fontFamily="@font/holtwood_one_sc"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+</RelativeLayout>

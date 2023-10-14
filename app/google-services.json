@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283394765564",
+    "project_id": "guesstheflag-b5d00",
+    "storage_bucket": "guesstheflag-b5d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283394765564:android:0a31c6b13b0208f89b5d79",
+        "android_client_info": {
+          "package_name": "com.example.guesstheflag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB-DQ28bE16tEvSWkLYw5r-LDcwidGa_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

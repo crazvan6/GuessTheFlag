@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <ImageView
+            android:id="@+id/imgCandy"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_margin="30dp"
+            android:src="@drawable/ic_question_mark"
+            />
+
+        <ImageView
+            android:id="@+id/imgBronzeMedal"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_toRightOf="@+id/imgCandy"
+            android:layout_margin="30dp"
+            android:src="@drawable/ic_question_mark"
+            />
+        <ImageView
+            android:id="@+id/imgSilverMedal"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imgCandy"
+            android:layout_margin="30dp"
+            android:src="@drawable/ic_question_mark"
+            />
+        <ImageView
+            android:id="@+id/imgGoldMedal"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_margin="30dp"
+            android:layout_toRightOf="@+id/imgSilverMedal"
+            android:layout_below="@+id/imgBronzeMedal"
+            android:src="@drawable/ic_question_mark"
+            />
+
+        <ImageView
+            android:id="@+id/imgTrophy"
+            android:layout_width="230dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/imgGoldMedal"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_question_mark"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
