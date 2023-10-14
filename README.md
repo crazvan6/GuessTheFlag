@@ -15,7 +15,7 @@ GuessTheFlag is an Android mobile quiz app developed in Kotlin, providing an int
 **Technologies and Tools**
 - Programming Language: Kotlin
 - Authentication Platform: Firebase Authentication
-- Real-time Data Storage: Firebase Realtime Database
+- Real-time Data Storage: Firestore Database
 - Interactive Design: Android Material Design
 - User Interface: XML, Android XML Layouts
 -Animation and Visual Effects: Android Animation API
