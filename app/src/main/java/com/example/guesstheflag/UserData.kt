@@ -38,7 +38,7 @@ object UserData {
                 if (documentSnapshot.exists()) {
                     val data = documentSnapshot.data
                     if (data != null) {
-                        // Obțineți datele de realizare din Firestore
+                    
                         val candyAchieved = data["candyAchieved"] as Boolean
                         val bronzeAchieved = data["bronzeAchieved"] as Boolean
                         val silverAchieved = data["silverAchieved"] as Boolean
@@ -52,14 +52,14 @@ object UserData {
                             in 6..7 -> callback(silverAchieved)
                             in 8..9 -> callback(goldAchieved)
                             10 -> callback(trophyAchieved)
-                            else -> callback(true) // Scor necunoscut
+                            else -> callback(true) 
                         }
                     }
                 }
             }
             .addOnFailureListener { exception ->
                 Log.e("E:", exception.toString())
-                callback(true) // În caz de eroare, reveniți la valoarea implicită
+                callback(true) 
             }
     }
 
