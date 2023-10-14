@@ -45,7 +45,6 @@ object UserData {
                         val goldAchieved = data["goldAchieved"] as Boolean
                         val trophyAchieved = data["trophyAchieved"] as Boolean
 
-                        // Verificați realizările în funcție de scor
                         when (score) {
                             in 0..1 -> callback(candyAchieved)
                             in 2..5 -> callback(bronzeAchieved)
